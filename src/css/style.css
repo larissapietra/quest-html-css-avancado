@@ -1,0 +1,70 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">);
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url('../images/bg-desktop.svg');
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+}
+
+.logo{
+    padding: 5.0rem;;
+}
+
+.imagem{
+    display: flex;
+    margin: 5.0rem;
+    max-width: 100%;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+}
+
+.conteudo h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #FFF;
+    font-size: 4.5rem;
+}
+
+.conteudo p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 1.6rem;
+    padding: 2.0rem;
+}
+
+.conteudo span{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF;
+    color: hsl(257, 40%, 49%);
+    font-size: 1.6rem;
+    padding: 1.0rem 3.0rem;
+    border-radius: 2.0rem;
+    cursor: pointer;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+    margin: 6.0rem;
+    gap: 1.0rem;
+}
+
+a{
+    font-size: 3.0rem;
+    color: #FFF;
+}
+
+
+
+
+
